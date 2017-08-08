@@ -14,11 +14,11 @@ const App = () =>
     <div className="container">
       <Header />
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route exact path="/teachers" component={Teachers} />
-        <Route path="/teachers/:topic/:name/" component={Featured} />
-        <Route path="/courses" component={Courses} />
+        <Route exact path="React-Router-TTH/" component={Home} />
+        <Route path="React-Router-TTH/about" component={About} />
+        <Route exact path="React-Router-TTH/teachers" component={Teachers} />
+        <Route path="React-Router-TTH/teachers/:topic/:name/" component={Featured} />
+        <Route path="React-Router-TTH/courses" component={Courses} />
         <Route component={NotFound} />
       </Switch>
     </div>
