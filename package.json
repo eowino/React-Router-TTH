@@ -2,8 +2,9 @@
   "name": "course-directory",
   "version": "0.1.0",
   "private": true,
-   "homepage": "http://eowino.github.io/React-Router-TTH/",
+  "homepage": "http://eowino.github.io/React-Router-TTH/",
   "devDependencies": {
+    "react-router-dom": "^4.1.2",
     "react-scripts": "1.0.6"
   },
   "dependencies": {
